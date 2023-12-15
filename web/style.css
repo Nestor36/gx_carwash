@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+fieldset{
+    margin-top: 25px;
+    border-radius: 25px;
+    width: 400px;
+}
+
+legend{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    margin: 20px;
+    margin-bottom: 10px;
+
+}
+
+img{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    z-index:9;
+}
+
+i{
+    color: dark;
+}
+
+h2{
+
+    color: rgb(252, 134, 33);
+    text-shadow: -5px 2px 3px rgba(252, 134, 33,0.56);    padding: 0px 0px 0px 20px;
+    text-align: center;
+    font-family: 'Jost', sans-serif;
+}
+
+h3{
+    color: white;
+    padding: 0px 0px 10px 0px;
+    filter: blur(0.4px);
+
+    text-align: center;
+    font-family: 'Jost', sans-serif;
+}
+
+
+.green{
+    background-color: rgb(3, 166, 90);
+    border: 2px solid rgb(0, 94, 56);
+    /*
+    background-color: rgb(78, 141, 124);
+    border: 2px solid rgb(4, 87, 98);
+    */
+}
+
+.red{
+    
+    background-color: rgb(219, 48, 86); 
+    border: 2px solid rgb(133, 29, 65);
+}
+
+.blue{
+    background-color: rgb(0, 112, 224);
+    border: 2px solid rgb(133, 29, 65);
+}
